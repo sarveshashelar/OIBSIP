@@ -1,0 +1,77 @@
+        body {
+            background-color: aliceblue;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            color: rgb(151, 234, 248);
+            font-family: 'Times New Roman';
+            background-color: rgb(60, 68, 66)
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        div#tribute-data {
+            background-color: rgb(46, 139, 87, 0.25);
+            box-shadow: 20px 20px 20px #0f110f;
+            font-family: Georgia;
+            padding: 35px 35px;
+            margin: 11px;
+            margin-top: 50px;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        .container {
+            position: absolute;
+            top: 310%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+        }
+        
+        .container span {
+            text-transform: uppercase;
+            display: block;
+        }
+        
+        .text1 {
+            font-size: 50px;
+            font-weight: 400;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+            position: relative;
+            animation: text 3s 1;
+        }
+        
+        .text2 {
+            font-size: 40px;
+            color: rgb(60, 99, 105);
+        }
+        
+        @keyframes text {
+            0% {
+                margin-bottom: -40px;
+            }
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -40px;
+            }
+            85% {
+                letter-spacing: 8px;
+                margin-bottom: -40px;
+            }
+        }
